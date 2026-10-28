@@ -1,0 +1,21 @@
+:root{--ink:#26292E;--beige:#E6D8BD;--bg:#F7F2E9;--line:#E6DED0;--mute:#6E6A62}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans Devanagari",sans-serif}
+header{background:var(--ink);color:var(--beige);padding:28px 16px}
+header .w,main{max-width:760px;margin:0 auto}
+header a{color:var(--beige);text-decoration:none;display:flex;align-items:center;gap:12px;font-size:20px;font-weight:600}
+header img{width:44px;height:44px;border-radius:10px}
+nav{margin-top:14px;display:flex;gap:16px;flex-wrap:wrap;font-size:14px}
+nav a{font-size:14px;font-weight:500;color:#fff;opacity:.85}
+main{padding:24px 16px 60px}
+h1{font-size:28px;line-height:1.25;margin:0 0 6px}
+h2{font-size:20px;margin:30px 0 8px}
+h3{font-size:17px;margin:20px 0 6px}
+.mute{color:var(--mute);font-size:14px}
+.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin:16px 0}
+.lang{display:inline-block;background:#fff;border:1px solid var(--line);border-radius:20px;padding:4px 14px;font-size:14px;color:var(--ink);text-decoration:none;margin-bottom:12px}
+.btn{display:inline-block;background:var(--ink);color:var(--beige);text-decoration:none;font-weight:600;border-radius:12px;padding:12px 20px;margin:6px 0}
+ul,ol{padding-left:22px}li{margin:4px 0}
+a{color:#6B5A36}
+hr{border:0;border-top:1px solid var(--line);margin:40px 0}
+footer{max-width:760px;margin:0 auto;padding:0 16px 40px;color:var(--mute);font-size:13px}
